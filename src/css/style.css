@@ -12,7 +12,7 @@ nav {
 	color: #fff;
 	font-size: 23px;
 	line-height: 45px;
-	margin-left: 280px;
+	margin-left: 230px;
 	float: left;
 }
 
@@ -31,36 +31,112 @@ nav {
 
 .main{
 	width: 100%;
-	height: calc(100%-45px);
+	height: calc(100% - 45px);
+	box-shadow: inset 0px -5px 30px -10px grey;
 	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/fon.png) center/cover no-repeat;
 }
 
 .title_container{
 	float: left;
-	margin: 310px 0px 0px 290px;
+	margin: 200px 0px 0px 130px;
 	color: #2c384a;
 	text-align: center;
 }
 
 .title_container h1{
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: bold;
 }
 
 .title_container h4{
 	margin-top: 25px;
-	font-size: 22px;
+	font-size: 25px;
 	color: #79818d;
 }
 
 .title_container input{
-	height: 31px;
+	height: 45px;
 	text-align: center;
 	border: 2px solid #6d7682;
 	background: none;
-	border-radius: 5px;
+	border-radius: 8px;
 	color: #6d7682;
-	font-size: 13px;
+	font-size: 20px;
 	padding: 0px 16px;
 	margin: 40px 14px 0px 14px;
+}
+
+.about{
+	width: 700px;
+	margin: 78px auto 0px auto;
+}
+
+.about h2{
+	color: #263244;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}	
+
+.line{
+	width: 50px;
+	margin: 22px auto 0px auto;
+	
+	border: 1px solid #d17700;
+}
+
+.about img{
+	display: block;
+	margin: 43px auto 0px auto;
+}
+
+.about span{
+	display: block;
+	margin-top: 15px;
+	color: #3f495a;
+	font-size: 20px;
+}
+
+.about input{
+	display: block;
+	height: 45px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 8px;
+	color: #6d7682;
+	font-size: 20px;
+	padding: 0px 16px;
+	margin: 26px auto 0px auto;
+}
+
+.skills{
+	border: 1px solid;
+	margin-top: 69px;
+	width: 100%;
+	height: 80%;
+	background: url(../img/fon-skills.png) center/cover no-repeat;
+}
+
+.skills h2{
+	color: #263244;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 77px;
+}
+
+.icons{
+	width: 840px;
+	margin: 75px auto 0px auto;
+}
+.skills img{
+	margin-right: 170px;
+	
+}
+
+.skills tr{
+	display: block;
+	margin-left: 150px;
 }
