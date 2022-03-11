@@ -45,47 +45,51 @@
 	<div class=skills>
 		<h2>Что я умею</h2>
 		<div class=line></div>
-		<table width="80%">
-			<div class=icons>
+		<div class="skills1">
+			<div class=note>
 				<img src="img/note.png">
+				<p>Веб-дизайн</p>
+				<span>Lorem ipsum dolor sit amet  <br>consectetur adipisicing elit. Rem, distinctio.</span>
+			</div>		
+			<div class="php">
 				<img src="img/php.png">
-				<img src="img/rocket.png">
-				<img src="img/megaphone.png">
+				<p>Разработка</p>
+				<span>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Amet, voluptas.</span>
 			</div>
-			<tr>
-				<th>Веб-дизайн</th>
-				<th>Разработка</th>
-				<th>СЕО-оптимизация</th>
-				<th>Маркетинг</th>
-			</tr>
-
-			<td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, maiores!</td>
-			<td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, maiores!</td>
-			<td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, maiores!</td>
-			<td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, maiores!</td>
-		</table>
-	</div>	
+			<div class="rocket">
+				<img src="img/rocket.png">
+				<p>СЕО-оптимизация</p>
+				<span>Lorem ipsum dolor sit amet  <br>consectetur adipisicing elit. Vel, ipsum!</span>
+			</div>
+			<div class="megaphone">
+				<img src="img/megaphone.png">
+				<p>Маркетинг</p>
+				<span>Lorem ipsum dolor sit amet, consectetur <br>adipisicing, elit. Mollitia veritatis.</span>
+			</div>
+		</div>	
+	</div>			
 	
-	<div>
+	<div class=keys>
 		<h2>КЕЙСЫ</h2>
 		<div class=line></div>
 		<h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, eos.</h4>
-		<table width="100%">
-			<tr>
-				<th>Клиент</th>
-				<th>Название проекта</th>
-			</tr>
-			<td>*-я компания</td>
-			<td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, sed!</td>
-			<tr>
-				<th>WEB-сайт</th>
-			</tr>
-			<td>domain.com</td>
-		</table>
-		<a href="https://google.com" target="blank"> Посетить web-сайт</a>
+		<img src="img/keys.png">
+			<table>
+				<tr>
+					<th>Клиент</th>
+					<th>Название проекта</th>
+				</tr>
+				<td>*-я компания</td>
+				<td><p style="font-size: 15px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, sed!</p></td>
+				<tr>
+					<th>WEB-сайт</th>
+				</tr>
+				<td>domain.com</td>
+			</table>
+		<a href="https://google.com" target="blank"> Посетить<br> web-сайт</a>
 	</div>
 	
-	<div>
+	<div class=cost>
 		<H2>Расчет стоимости</H2>
 		<h3>Тип сайта</h3>
 		<select name="list1" id="list" >
@@ -102,44 +106,66 @@
 		<p>Сроки<br>Стоимость</p>
 	</div>
 	
-	<div>
+	<div class=stat>
 		<h2>Немного статистики</h2>
 		<div class=line></div>
-		<table width="60%">
-			<tr>
-				<th>120</th>
-				<th>4,600</th>
-				<th>340</th>
-				<th>23</th>
-			</tr>
-			<td>счастливых клиентов</td>
-			<td>часов работы</td>
-			<td>проектов завершено</td>
-			<td>наград получено</td>
-		</table>	
+		<div class="stat1">
+			<div class=smile>
+				<img src="img/smile.png">
+				<p>120</p>
+				<span>Счастливых клиентов</span>
+			</div>		
+			<div class="skobki">
+				<img src="img/skobki.png">
+				<p>4,600</p>
+				<span>Часов работы</span>
+			</div>
+			<div class="ok">
+				<img src="img/ok.png">
+				<p>340</p>
+				<span>Проектов завершено</span>
+			</div>
+			<div class="cup">
+				<img src="img/cup.png">
+				<p>23</p>
+				<span>Наград получено</span>
+			</div>
+		</div>	
+		
 	</div>
 
-	<div>
+	<div class=reviews>
 		<h2>ОТЗЫВЫ</h2>
+		<div class=line></div>
+		<img src="img/photo.png">
 		<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reiciendis. <br>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Unde, quia.</span>
 		<p><b>Михаил</b>, ген. директор ПАО "ГАЗПРОМ"</p>
+		<div class="radio">
+			<input type="radio" name="1"></input>
+			<input type="radio" name="1"></input>
+			<input type="radio" name="1"></input>
+		</div>	
 	</div>
 
-	<div>
+	<div class=contacts>
 		<h2>МОИ КОНТАКТЫ</h2>
+		<div class=line></div>
 		<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, ut.</span>
-		<table width="60%">
-			<tr>
-				<th>Санкт-Петербург<br>Невский проспект 11</th>
-				<th>info@info.com</th>
-				<th>+7 999 999-99-99</th>
-			</tr>
-		</table>
-		<h3>Оставьте мне сообщение</h3>	
-		<input type="text" name="text input" placeholder="Имя">
-		<input type="text" name="text input" placeholder="E-mail"><br>
-		<textarea name="text" id="" cols="30" rows="1" placeholder="Сообщение"></textarea>
-		<br><input type="submit" value="Отправить">
+		<div class=contacts1>
+			<div class="geo">
+				<img src="img/geo.png">
+				<p>Санкт-Петербург<br>Невский проспект 11</p>
+			</div>
+			<div class="letter">
+				<img src="img/letter.png">
+				<p>info@info.com</p>
+			</div>
+			<div class="phone">
+				<img src="img/phone.png">
+				<p>+7 999 999-99-99</p>
+			</div>
+		</div>
+		<span>1</span>
 	</div>
 
 </body>
