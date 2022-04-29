@@ -8,30 +8,47 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="preloader">
+	  <div class="preloader__row">
+	    <div class="preloader__item"></div>
+	    <div class="preloader__item"></div>
+	  </div>
+	  <script>
+  		window.onload = function () {
+    	document.body.classList.add('loaded_hiding');
+    	window.setTimeout(function () {
+      	document.body.classList.add('loaded');
+      	document.body.classList.remove('loaded_hiding');
+    	}, 500);
+  		}
+	</script>
+	</div>
 	<header>
 		<nav>
 			<div class="logo">Андрей Бондарев</div>
 			<div class="menu">
 				<ul>
-				<li>Обо мне</li>
-				<li>Услуги</li>
-				<li>Кейсы</li>
-				<li>Прайс</li>
-				<li>Отзывы</li>
-				<li>Контакты</li>
+				<li><a href="#">Обо мне</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Кейсы</a></li>
+				<li><a href="#">Прайс</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Контакты</a></li>
 				</ul>
 			</div>
 	    </nav>
 	</header>
 	
 	<div class="main">
-		<div class="title_container">
-		<h1>Привет<br>Я Андрей Бондарев</h1>
-		<h4>Новичок в веб-разработке</h4>
-		<input type="submit" value="Обо мне">
-		<input type="submit" value="Мои работы">
-		</div>
-	</div>
+		<section class="main">
+			<div class="title_container">
+				<h1>Привет<br>Я Андрей Бондарев</h1>
+				<h4>Новичок в веб-разработке</h4>
+				<input type="button" value="Обо мне">
+				<input type="button" value="Мои работы">
+			</div>
+		</section>
+	</div>	
 
 	<div class=about>
 		<H2>ОБО МНЕ</H2> 
@@ -86,7 +103,7 @@
 				</tr>
 				<td>domain.com</td>
 			</table>
-		<a href="https://google.com" target="blank"> Посетить<br> web-сайт</a>
+		<a href="#" target="blank"> Посетить<br> web-сайт</a>
 	</div>
 	
 	<div class=cost>
@@ -131,7 +148,6 @@
 				<span>Наград получено</span>
 			</div>
 		</div>	
-		
 	</div>
 
 	<div class=reviews>
@@ -162,17 +178,21 @@
 			</div>
 			<div class="phone">
 				<img src="img/phone.png">
-				<p>+7 999 999-99-99</p>
+				<p>+7 950 404-00-15</p>
 			</div>
 		</div>
 		<div class="message">
 			<h3>Оставьте мне сообщение</h3>	
-			<input type="text" name="text input" placeholder="Имя">
-			<input type="text" name="text input" placeholder="E-mail">
-			<textarea name="text" id="" cols="30" rows="1" placeholder="Сообщение"></textarea>
+			<input type="text" name="text input" placeholder="   Имя">
+			<input type="text" name="text input" placeholder="   E-mail">
+			<textarea name="text" id="" cols="70" rows="4" placeholder="   Сообщение"></textarea>
 			<input type="submit" value="Отправить">
 		</div>	
+	</div>	
+	<div class="map">
+		<p>I'M HERE</p>
 	</div>
+	
 
 </body>
 </html>
