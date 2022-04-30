@@ -653,11 +653,35 @@ nav {
 	width: 252px;
 	background-color: #d3d6dc;
 	margin-bottom: 8px;
+	border-radius: 5px;
+}
+
+.submit{
+	margin-left: 163.5px;
+}
+
+.submit input{
+	float: left;
+	margin-right: 10px;
+	width: 130px;
+	border: 1px solid #d3d6dc;
+	border-radius: 5px;
+	color: white;
+	background: none;
+}
+
+.submit input:hover{
+	background-color: #e88604;
+}
+
+.submit input:active{
+	transform: scale(1.1);
 }
 
 .message textarea{	
 	margin-bottom: 18px;
 	background-color: #d3d6dc;
+	border-radius: 5px;
 }
 
 .map{
